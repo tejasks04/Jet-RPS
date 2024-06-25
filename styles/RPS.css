@@ -1,0 +1,107 @@
+
+body {
+  background-color: rgb(25, 25, 25);
+  font-family: Arial;
+  color: white;
+  
+  }
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.develop {
+  font-family: Arial;
+  color: rgb(68, 68, 68);
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 210px;
+  right: 0;
+  bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+  font-size: 20px;
+  }
+  .logo{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 25px;
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+  }
+  .js-yes,
+  .js-no {
+    background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 6px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.js-confirm {
+  margin-top: 30px;
+}
+.myname{
+  height: 100px;
+  width: 250px;
+}
+.mylogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.head {
+  display: flex;
+  background-color: rgb(87, 85, 85);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 2px;
+ 
+}
